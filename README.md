@@ -52,7 +52,7 @@ bash
 
 php -S localhost:8000
 For Apache or Nginx, configure the server to point to the project directory.
-Access the application:
+# Access the application:
 
 Open your web browser and navigate to http://localhost:8000 (or your server's address).
 -API Endpoints
