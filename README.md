@@ -30,7 +30,7 @@ The Internet Service Manager (ISM) is a PHP-based platform that allows users to 
    git clone https://github.com/yourusername/ism.git
 Navigate to the project directory:
 
-```bash
+bash
 
 cd ism
 Install dependencies using Composer:
