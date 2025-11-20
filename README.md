@@ -55,10 +55,10 @@ For Apache or Nginx, configure the server to point to the project directory.
 ### Access the application:
 
 Open your web browser and navigate to http://localhost:8000 (or your server's address).
--API Endpoints
--GET /api/data: Retrieve available data packages.
--POST /api/purchase: Purchase tokens for selected data packages.
--GET /api/usage: Get current data usage and remaining balance.
+   - API Endpoints
+   - GET /api/data: Retrieve available data packages.
+   - POST /api/purchase: Purchase tokens for selected data packages.
+   - GET /api/usage: Get current data usage and remaining balance.
    
    # Contributing
 We welcome contributions from the community! Please see the CONTRIBUTING.md file for guidelines on how to contribute.
