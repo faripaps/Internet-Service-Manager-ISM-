@@ -35,7 +35,7 @@ Navigate to the project directory:
 cd ism
 Install dependencies using Composer:
 
-```bash
+bash
 
 composer install
 Set up the database:
@@ -48,7 +48,7 @@ Rename the config.sample.php file to config.php and update database credentials 
 Start the web server:
 
 If using PHP's built-in server:
-```bash
+bash
 
 php -S localhost:8000
 For Apache or Nginx, configure the server to point to the project directory.
