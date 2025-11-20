@@ -28,7 +28,37 @@ The Internet Service Manager (ISM) is a PHP-based platform that allows users to 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/ism.git
+Navigate to the project directory:
 
+bash
+
+cd ism
+Install dependencies using Composer:
+
+bash
+
+composer install
+Set up the database:
+
+Create a database in MySQL.
+Import the provided SQL schema (e.g., schema.sql) to set up the necessary tables.
+Configuration:
+
+Rename the config.sample.php file to config.php and update database credentials and any other necessary settings.
+Start the web server:
+
+If using PHP's built-in server:
+bash
+
+php -S localhost:8000
+For Apache or Nginx, configure the server to point to the project directory.
+Access the application:
+
+Open your web browser and navigate to http://localhost:8000 (or your server's address).
+API Endpoints
+GET /api/data: Retrieve available data packages.
+POST /api/purchase: Purchase tokens for selected data packages.
+GET /api/usage: Get current data usage and remaining balance.
    
    # Contributing
 We welcome contributions from the community! Please see the CONTRIBUTING.md file for guidelines on how to contribute.
